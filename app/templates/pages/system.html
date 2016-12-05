@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">{{header}}</h1>
+            <iframe src="http://85.120.206.43:5601/app/kibana#/dashboard/Demo-Dashboard?embed=true&_g=(refreshInterval:(display:Off,pause:!f,value:0),time:(from:now-15m,mode:quick,to:now))&_a=(filters:!(),options:(darkTheme:!t),panels:!((col:1,id:Master-CPU-Load,panelIndex:1,row:1,size_x:3,size_y:2,type:visualization),(col:7,id:Slave-2-CPU-Load,panelIndex:2,row:1,size_x:3,size_y:2,type:visualization),(col:10,id:Slave-3-CPU-Load,panelIndex:3,row:1,size_x:3,size_y:2,type:visualization),(col:4,id:Slave-CPU-Load,panelIndex:4,row:1,size_x:3,size_y:2,type:visualization),(col:1,id:Master-Memory,panelIndex:5,row:3,size_x:3,size_y:2,type:visualization),(col:4,id:Slave-1-Memory,panelIndex:6,row:3,size_x:3,size_y:2,type:visualization),(col:7,id:Slave-2-Memory,panelIndex:7,row:3,size_x:3,size_y:2,type:visualization),(col:10,id:Slave-3-Memory,panelIndex:8,row:3,size_x:3,size_y:2,type:visualization),(col:1,id:Master-Interface,panelIndex:9,row:5,size_x:3,size_y:2,type:visualization),(col:4,id:Slave-1-Interface,panelIndex:10,row:5,size_x:3,size_y:2,type:visualization),(col:7,id:Slave-2-Interface,panelIndex:11,row:5,size_x:3,size_y:2,type:visualization),(col:10,id:Slave-3-Interface,panelIndex:12,row:5,size_x:3,size_y:2,type:visualization)),query:(query_string:(analyze_wildcard:!t,query:'*')),title:'Demo%20Dashboard',uiState:(P-1:(vis:(legendOpen:!f)),P-10:(vis:(legendOpen:!f)),P-11:(vis:(legendOpen:!f)),P-12:(vis:(legendOpen:!f)),P-2:(vis:(legendOpen:!f)),P-3:(vis:(legendOpen:!f)),P-4:(vis:(legendOpen:!f)),P-5:(vis:(legendOpen:!f)),P-6:(vis:(legendOpen:!f)),P-7:(vis:(legendOpen:!f)),P-8:(vis:(legendOpen:!f)),P-9:(vis:(legendOpen:!f))))" height="1200" width="1600"></iframe>
+        </div>
+     </div>
+</div>
+{% endblock %}
+<!-- /#page-wrapper -->
